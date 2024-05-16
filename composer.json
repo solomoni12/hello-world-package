@@ -1,0 +1,11 @@
+{
+    "name": "solomoni12/hello-world-package",
+    "description": "A hello world composer private package.",
+    "autoload": {
+        "psr-4": {
+            "solomoni12\\HelloWorldPackage\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
